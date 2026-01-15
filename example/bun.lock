@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "cross-dirs-example",
+      "dependencies": {
+        "cross-dirs": "link:..",
+      },
+    },
+  },
+  "packages": {
+    "cross-dirs": ["cross-dirs@link:..", {}],
+  }
+}

@@ -1,0 +1,18 @@
+# Development
+.github/
+.vscode/
+.editorconfig
+biome.json
+
+# Tests
+tests/
+
+# Example
+example/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Lock files
+bun.lock
+package-lock.json
