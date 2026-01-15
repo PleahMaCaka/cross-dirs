@@ -2,6 +2,7 @@
   "recommendations": [
     "github.vscode-github-actions",
     "editorconfig.editorconfig",
-    "biomejs.biome"
+    "biomejs.biome",
+    "davidanson.vscode-markdownlint"
   ]
 }

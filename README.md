@@ -1,6 +1,7 @@
 # `cross-dirs`
 
 ## Introduction
+
 - a tiny low-level library with a minimal API
 - that provides the platform-specific, user-accessible locations
 - for retrieving and storing configuration, cache and other data
@@ -10,6 +11,7 @@
 Inspired by [`dirs`](https://codeberg.org/dirs/dirs-rs), the original Rust crate.
 
 The library provides the location of these directories by leveraging the mechanisms defined by
+
 - the [XDG base directory](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html) and
   the [XDG user directory](https://www.freedesktop.org/wiki/Software/xdg-user-dirs/) specifications on Linux
 - the [Known Folder](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378457.aspx) API on Windows
@@ -17,10 +19,12 @@ The library provides the location of these directories by leveraging the mechani
   guidelines on macOS
 
 ## Platforms
+
 This library supports Linux, macOS and Windows.
 Other platforms are also supported; they use the Linux conventions.
 
 ## Usage
+
 #### Dependency
 
 ```bash
@@ -99,4 +103,4 @@ In practice, this means cross-dirs returns the same paths as dirs-rs for default
 
 ## License
 
-MIT
+[MIT](./LICENSE)
