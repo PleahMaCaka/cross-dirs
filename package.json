@@ -1,6 +1,6 @@
 {
   "name": "cross-dirs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Platform-specific user directory paths for Node.js and Bun - TypeScript port of dirs-rs",
   "repository": {
     "type": "git",
@@ -14,6 +14,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "bin": {
+    "cross-dirs": "./dist/cli.js"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -26,7 +29,7 @@
     "src"
   ],
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./dist --target node",
+    "build": "bun build ./src/index.ts --outdir ./dist --target node && bun build ./src/cli.ts --outdir ./dist --target node",
     "test": "bun test",
     "test:node": "node --experimental-vm-modules --import tsx tests/index.test.ts",
     "check": "tsc --noEmit",
