@@ -41,6 +41,7 @@ describe("cross-dirs", () => {
       const result = homeDir()
       assert.notStrictEqual(result, null)
       assert.strictEqual(typeof result, "string")
+      // biome-ignore lint/style/noNonNullAssertion: i dont care
       assert.ok(result!.length > 0)
     })
   })

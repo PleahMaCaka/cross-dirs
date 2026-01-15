@@ -22,7 +22,7 @@
     "test": "bun test",
     "test:node": "node --experimental-vm-modules --import tsx tests/index.test.ts",
     "check": "tsc --noEmit",
-    "format": "bunx @biomejs/biome check --write ."
+    "format": "biome check --write --unsafe ."
   },
   "keywords": [
     "dirs",
@@ -36,6 +36,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
     "@types/bun": "latest",
     "@types/node": "^20.0.0",
     "tsx": "^4.7.0",
