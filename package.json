@@ -4,7 +4,7 @@
   "description": "Platform-specific user directory paths for Node.js and Bun - TypeScript port of dirs-rs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pleahmacaka/cross-dirs.git"
+    "url": "git+https://github.com/PleahMaCaka/cross-dirs.git"
   },
   "publishConfig": {
     "access": "public",
