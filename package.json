@@ -22,7 +22,7 @@
     "test": "bun test",
     "test:node": "node --experimental-vm-modules --import tsx tests/index.test.ts",
     "check": "tsc --noEmit",
-    "format": "biome check --write --unsafe ."
+    "format": "biome check --write ."
   },
   "keywords": [
     "dirs",
