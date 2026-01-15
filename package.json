@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/pleahmacaka/cross-dirs.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
