@@ -1,6 +1,6 @@
 {
   "name": "cross-dirs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Platform-specific user directory paths for Node.js and Bun - TypeScript port of dirs-rs",
   "type": "module",
   "main": "./dist/index.js",
